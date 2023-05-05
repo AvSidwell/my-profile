@@ -1,0 +1,122 @@
+.apear-bg {
+    border-radius: 25px !important;
+    background: #6a8695 !important;
+    box-shadow: 12px 12px 40px #4e636e,
+        -1px -1px 20px #86a9bc !important;
+}
+
+#button {
+    width: 300px;
+    border-radius: 48px;
+    background: #a57376;
+    box-shadow: 25px 25px 50px #6d4c4e,
+        -25px -25px 50px #dd9a9e;
+}
+
+img {
+    height: 18rem !important;
+    width: 100% !important;
+}
+
+.flip-c {
+    background-color: transparent !important;
+    width: 200px !important;
+    height: 50px !important;
+    perspective: 1000px !important;
+}
+
+.flip-in {
+    position: relative !important;
+    width: 100% !important;
+    height: 100% !important;
+    text-align: center !important;
+    transition: transform 1s !important;
+    transform-style: preserve-3d !important;
+}
+
+.flip-c:hover .flip-in {
+    transform: rotateY(180deg) !important;
+}
+
+.flip-f,
+.flip-b {
+    position: absolute !important;
+    width: 100% !important;
+    height: 100% !important;
+    -webkit-backface-visibility: hidden !important;
+    backface-visibility: hidden !important;
+}
+
+.flip-b {
+    background-color: #2980b9 !important;
+    color: white !important;
+    transform: rotateY(180deg) !important;
+}
+
+.img-er {
+    display: flex;
+    /* float: left; */
+    height: 20px !important;
+    width: 20px !important;
+    border-radius: 50% !important;
+}
+
+.colourer-1 {
+    border-radius: 25px !important;
+    box-shadow: 0px px px #b8412a,
+        -0px -0px 0px #c41808 !important;
+}
+
+.animate {
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-name: animate;
+} 
+
+@keyframes animate {
+    0% {
+        color: red;
+        left: 10px;
+        top: 10px;
+    }
+
+    25% {
+        color: yellow;
+        left: 100px;
+        top: 10px;
+    }
+
+    50% {
+        color: blue;
+        left: 100px;
+        top: 200px;
+    }
+
+    75% {
+        color: green;
+        left: 10px;
+        top: 100px;
+    }
+
+    100% {
+        color: red;
+        left: 10px;
+        top: 10px;
+    }
+}
+
+.rower-1 {
+    margin-bottom: 300px;
+}
+
+.email {
+    width: 100% !important;
+}
+
+.message {
+    width: 100% !important;
+}
+
+.socials {
+    list-style: none;
+}
